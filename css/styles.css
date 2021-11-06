@@ -119,6 +119,11 @@ body {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-color);
+}
+
 /*-----Наши особенности-------*/
 .peculiarities-title {
   font-weight: 700d;
