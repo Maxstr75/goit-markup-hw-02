@@ -1,9 +1,9 @@
-root {
+:root {
   --main-title-color: #ffffff;
   --second-title-color: #212121;
   --main-text-color: #757575;
   --second-text-color: #ffffff;
-  --third-text-color: rgba(255, 255, 255, 0.6)
+  --third-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --main-btn-color: #ffffff;
   --header-text-color: #212121;
@@ -32,7 +32,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #e5e5e5;
 }
-
 
 /*-----------------HEADER------------*/
 .header {
@@ -114,6 +113,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-btn-color);
+  background-color: #2196f3;
+  cursor: pointer;
 }
 
 /*-----Наши особенности-------*/
@@ -171,53 +172,52 @@ body {
   color: var(--main-text-color);
 }
 
-
 /*-------------Footer--------*/
 .footer {
-background-color:#2F303A
+  background-color: #2f303a;
 }
-  
+
 .footer-logo-web {
-font-family: Raleway;
-font-style: normal;
-font-weight: 700old;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #2196F3;;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700old;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .footer-logo-studio {
-font-family: Raleway;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-.contacts-link{
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--second-text-color)
+.contacts-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 
-.contacts-mail{
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--third-text-color);
+.contacts-mail {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
 }
 
-.contacts-tel{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--third-text-color);
+.contacts-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
 }
