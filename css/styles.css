@@ -30,12 +30,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
 }
 
 /*-----------------HEADER------------*/
 .header {
-  background-color: #ffffff;
+  background-color: #ececec;
 }
 
 .header-logo-web {
@@ -93,6 +92,9 @@ body {
 }
 
 /* --------Что предлагаем------ */
+.hero {
+  background: #2f303a;
+}
 
 .hero-title {
   font-weight: 900;
@@ -102,7 +104,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-title-color);
-  background: #2f303a;
 }
 
 .hero-btn {
@@ -119,10 +120,10 @@ body {
 }
 
 /*-----Наши особенности-------*/
-.peculiarities {
-  font-weight: 700;
+.peculiarities-title {
+  font-weight: 700d;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-title-color);
@@ -147,6 +148,9 @@ body {
 }
 
 /*-------------Наша команда---------*/
+.team {
+  background-color: #f5f4fa;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -164,7 +168,7 @@ body {
   color: var(--second-title-color);
 }
 
-.person-item-text {
+.persons-item-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
